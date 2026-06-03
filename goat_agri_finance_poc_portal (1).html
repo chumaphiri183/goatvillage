@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Goat Village Zambia</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+body{font-family:'Inter',sans-serif;background:#f7f5f0;color:#1f2937;scroll-behavior:smooth}
+.hero-overlay{background:linear-gradient(to right,rgba(0,0,0,.85),rgba(0,0,0,.3))}
+.glass{backdrop-filter:blur(12px);background:rgba(255,255,255,.08)}
+.card:hover{transform:translateY(-8px);transition:.4s ease}
+.ticker{animation:ticker 35s linear infinite;display:inline-block;padding-left:100%}
+@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-100%)}}
+</style>
+</head>
+<body>
+
+<nav class="fixed top-0 left-0 w-full z-50 bg-black/60 backdrop-blur-lg border-b border-white/10">
+<div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+<div class="flex items-center gap-4">
+<img src="GV.jpg" class="w-16 h-16 rounded-xl object-cover border border-green-700 shadow-xl">
+<div>
+<h1 class="text-white text-xl font-bold">Goat Village</h1>
+<p class="text-green-400 text-sm">Kamaila, Chisamba - Lusaka</p>
+</div>
+</div>
+<div class="hidden lg:flex gap-8 text-white text-sm font-medium">
+<a href="#about" class="hover:text-green-400">About</a>
+<a href="#breeds" class="hover:text-green-400">Breeds</a>
+<a href="#services" class="hover:text-green-400">Services</a>
+<a href="#events" class="hover:text-green-400">Events</a>
+<a href="#invest" class="hover:text-green-400">Invest</a>
+<a href="#contact" class="hover:text-green-400">Contact</a>
+</div>
+<button class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-xl font-semibold shadow-xl">Inquire / Buy Goats</button>
+</div>
+</nav>
+
+<section class="relative h-screen overflow-hidden">
+<img src="468436526_122122753550521493_5266563882639288843_n.jpg" class="absolute inset-0 w-full h-full object-cover">
+<div class="absolute inset-0 hero-overlay"></div>
+
+<div class="relative z-10 h-full flex items-center pt-24">
+<div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+<div class="text-white">
+<div class="inline-block px-5 py-2 rounded-full bg-green-600/20 border border-green-500/40 text-sm mb-6">PREMIUM BOER & RED KALAHARI GOATS</div>
+<h1 class="text-6xl lg:text-7xl font-extrabold leading-tight mb-6">Premium Genetics.<br>Profitable Futures.</h1>
+<p class="text-xl text-gray-200 leading-relaxed max-w-2xl mb-10">Goat Village Zambia specializes in elite Boer Goats and Red Kalahari Goats imported from Botswana and Namibia. Built for commercial breeding, premium meat production, herd expansion, and long-term agricultural investment value.</p>
+<div class="flex flex-wrap gap-5">
+<button class="bg-green-600 hover:bg-green-700 px-8 py-4 rounded-2xl font-bold shadow-2xl">Buy Goats Now</button>
+<button class="border border-white/30 hover:bg-white/10 px-8 py-4 rounded-2xl font-bold">Investor Presentation</button>
+</div>
+
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-6 mt-14">
+<div class="glass rounded-2xl p-5 border border-white/10">
+<h3 class="text-3xl font-bold">100%</h3>
+<p class="text-sm text-gray-300 mt-2">Imported Genetics</p>
+</div>
+<div class="glass rounded-2xl p-5 border border-white/10">
+<h3 class="text-3xl font-bold">8,500+</h3>
+<p class="text-sm text-gray-300 mt-2">Livestock Capacity</p>
+</div>
+<div class="glass rounded-2xl p-5 border border-white/10">
+<h3 class="text-3xl font-bold">24/7</h3>
+<p class="text-sm text-gray-300 mt-2">Farm Support</p>
+</div>
+<div class="glass rounded-2xl p-5 border border-white/10">
+<h3 class="text-3xl font-bold">ROI</h3>
+<p class="text-sm text-gray-300 mt-2">Investor Focused</p>
+</div>
+</div>
+</div>
+
+<div class="bg-white rounded-3xl shadow-2xl p-10">
+<h2 class="text-3xl font-bold mb-2">Inquire / Reserve Goats</h2>
+<p class="text-gray-500 mb-8">Secure premium Boer & Red Kalahari goats directly from Goat Village Zambia.</p>
+<form class="space-y-5">
+<input type="text" placeholder="Full Name" class="w-full border border-gray-300 rounded-xl px-5 py-4">
+<input type="email" placeholder="Email Address" class="w-full border border-gray-300 rounded-xl px-5 py-4">
+<input type="tel" placeholder="Phone Number" class="w-full border border-gray-300 rounded-xl px-5 py-4">
+<select class="w-full border border-gray-300 rounded-xl px-5 py-4">
+<option>Select Goat Type</option>
+<option>Boer Goats</option>
+<option>Red Kalahari Goats</option>
+<option>Breeding Pair</option>
+<option>Commercial Herd</option>
+</select>
+<textarea placeholder="Message or Quantity Required" rows="4" class="w-full border border-gray-300 rounded-xl px-5 py-4"></textarea>
+<button class="w-full bg-black hover:bg-gray-900 text-white py-4 rounded-xl font-bold">Submit Inquiry</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+<section id="about" class="py-24 bg-white">
+<div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+<div>
+<img src="468436526_122122753550521493_5266563882639288843_n.jpg" class="rounded-3xl shadow-2xl w-full object-cover">
+</div>
+<div>
+<div class="text-green-700 uppercase font-semibold tracking-wide mb-4">About Goat Village</div>
+<h2 class="text-5xl font-extrabold leading-tight mb-8">Elite Livestock Breeding for Commercial Agriculture</h2>
+<p class="text-gray-600 text-lg leading-relaxed mb-6">Goat Village Zambia is a premium goat breeding and livestock investment farm located in Kamaila, Chisamba Lusaka. The farm focuses on superior Boer Goats and Red Kalahari Goats known for exceptional growth rates, hardiness, fertility, and meat quality.</p>
+<p class="text-gray-600 text-lg leading-relaxed mb-10">Our operations are designed around modern livestock management practices, selective breeding programs, investor-ready scalability, and sustainable herd development for commercial agriculture markets.</p>
+
+<div class="grid grid-cols-2 gap-6">
+<div class="bg-gray-50 rounded-2xl p-6 shadow-lg">
+<h3 class="font-bold text-xl mb-3">Boer Goats</h3>
+<p class="text-gray-600 text-sm">Fast-growing meat goats originally from South Africa with superior muscle development and breeding value.</p>
+</div>
+<div class="bg-gray-50 rounded-2xl p-6 shadow-lg">
+<h3 class="font-bold text-xl mb-3">Red Kalahari</h3>
+<p class="text-gray-600 text-sm">Highly resilient goats with strong heat tolerance and excellent adaptability for African conditions.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="breeds" class="py-24 bg-[#f3efe7]">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<div class="text-green-700 uppercase font-semibold mb-3">Our Premium Herd</div>
+<h2 class="text-5xl font-extrabold">Premium Goat Breeds</h2>
+</div>
+
+<div class="grid lg:grid-cols-2 gap-10">
+<div class="bg-white rounded-3xl overflow-hidden shadow-2xl card">
+<img src="549034433_122166880628521493_3162344135256248192_n.jpg" class="h-80 w-full object-cover">
+<div class="p-10">
+<h3 class="text-3xl font-bold mb-4">Boer Goats</h3>
+<ul class="space-y-3 text-gray-600 leading-relaxed">
+<li>✔ Superior meat conversion rates</li>
+<li>✔ High fertility and breeding performance</li>
+<li>✔ Strong growth and body mass</li>
+<li>✔ Commercial production ready</li>
+<li>✔ Imported bloodlines from Botswana</li>
+</ul>
+<button class="mt-8 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-xl font-semibold">Buy Boer Goats</button>
+</div>
+</div>
+
+<div class="bg-white rounded-3xl overflow-hidden shadow-2xl card">
+<img src="468432830_122122753814521493_6921202636745038852_n.jpg" class="h-80 w-full object-cover">
+<div class="p-10">
+<h3 class="text-3xl font-bold mb-4">Red Kalahari Goats</h3>
+<ul class="space-y-3 text-gray-600 leading-relaxed">
+<li>✔ Hardy and heat resistant</li>
+<li>✔ Excellent for African climates</li>
+<li>✔ Strong maternal characteristics</li>
+<li>✔ Ideal for commercial farming</li>
+<li>✔ Premium Namibian breeding stock</li>
+</ul>
+<button class="mt-8 bg-black hover:bg-gray-900 text-white px-8 py-4 rounded-xl font-semibold">Reserve Kalahari Goats</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="services" class="py-24 bg-white">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<div class="text-green-700 uppercase font-semibold mb-3">Farm Services</div>
+<h2 class="text-5xl font-extrabold">Premium Agricultural Services</h2>
+</div>
+
+<div class="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
+<div class="bg-gray-50 rounded-3xl p-8 shadow-xl card">
+<div class="text-5xl mb-5">🐐</div>
+<h3 class="text-2xl font-bold mb-4">Premium Goat Sales</h3>
+<p class="text-gray-600">Purchase elite Boer and Red Kalahari goats for commercial farming and breeding.</p>
+</div>
+
+<div class="bg-gray-50 rounded-3xl p-8 shadow-xl card">
+<div class="text-5xl mb-5">🧬</div>
+<h3 class="text-2xl font-bold mb-4">Breeding Programs</h3>
+<p class="text-gray-600">Selective breeding systems focused on genetics, herd quality, and performance.</p>
+</div>
+
+<div class="bg-gray-50 rounded-3xl p-8 shadow-xl card">
+<div class="text-5xl mb-5">🎓</div>
+<h3 class="text-2xl font-bold mb-4">Mini Workshops</h3>
+<p class="text-gray-600">Hands-on training sessions teaching goat care, feeding, breeding, and disease management.</p>
+</div>
+
+<div class="bg-gray-50 rounded-3xl p-8 shadow-xl card">
+<div class="text-5xl mb-5">📈</div>
+<h3 class="text-2xl font-bold mb-4">Investor Support</h3>
+<p class="text-gray-600">Livestock investment consultation and scalable herd expansion planning.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="events" class="py-24 bg-[#10231a] text-white">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<div class="text-green-400 uppercase font-semibold mb-3">Events & Promotions</div>
+<h2 class="text-5xl font-extrabold">Farm Day Experiences & Seasonal Offers</h2>
+</div>
+
+<div class="grid lg:grid-cols-3 gap-8">
+<div class="bg-white/5 rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
+<img src="468432830_122122753814521493_6921202636745038852_n.jpg" class="h-64 w-full object-cover">
+<div class="p-8">
+<h3 class="text-3xl font-bold mb-4">Farm Day Special</h3>
+<p class="text-gray-300 mb-6">Experience premium livestock operations, breeding demonstrations, networking, and guided farm tours.</p>
+<div class="text-green-400 font-bold">Next Event: August 2026</div>
+</div>
+</div>
+
+<div class="bg-white/5 rounded-3xl p-10 border border-white/10 shadow-2xl">
+<div class="text-6xl mb-6">🔥</div>
+<h3 class="text-3xl font-bold mb-4">10% OFF Breeding Pairs</h3>
+<p class="text-gray-300 leading-relaxed">Special pricing on selected breeding stock for commercial farmers and livestock investors.</p>
+<button class="mt-8 bg-green-600 hover:bg-green-700 px-8 py-4 rounded-xl font-bold">Claim Offer</button>
+</div>
+
+<div class="bg-white/5 rounded-3xl p-10 border border-white/10 shadow-2xl">
+<div class="text-6xl mb-6">🎟️</div>
+<h3 class="text-3xl font-bold mb-4">Free Mini Workshop</h3>
+<p class="text-gray-300 leading-relaxed">Free goat farming workshop with every herd purchase package during promotional periods.</p>
+<button class="mt-8 bg-white text-black hover:bg-gray-200 px-8 py-4 rounded-xl font-bold">Book Workshop</button>
+</div>
+</div>
+</div>
+</section>
+
+<section id="invest" class="py-24 bg-white">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+<div>
+<div class="text-green-700 uppercase font-semibold mb-3">Why Invest in Goats?</div>
+<h2 class="text-5xl font-extrabold mb-8">High Demand. Scalable Returns.</h2>
+<div class="space-y-8">
+<div class="flex gap-5">
+<div class="text-4xl">📊</div>
+<div>
+<h3 class="text-2xl font-bold mb-2">Strong Market Demand</h3>
+<p class="text-gray-600">Goat meat demand continues to rise across Southern Africa, creating sustainable revenue opportunities.</p>
+</div>
+</div>
+<div class="flex gap-5">
+<div class="text-4xl">🛡️</div>
+<div>
+<h3 class="text-2xl font-bold mb-2">Resilient Livestock</h3>
+<p class="text-gray-600">Boer and Red Kalahari goats are adaptable, disease-resistant, and highly productive.</p>
+</div>
+</div>
+<div class="flex gap-5">
+<div class="text-4xl">💰</div>
+<div>
+<h3 class="text-2xl font-bold mb-2">Multiple Income Streams</h3>
+<p class="text-gray-600">Generate returns through breeding, livestock sales, genetics, training programs, and herd expansion.</p>
+</div>
+</div>
+</div>
+</div>
+<div>
+<img src="468436526_122122753550521493_5266563882639288843_n.jpg" class="rounded-3xl shadow-2xl">
+</div>
+</div>
+</div>
+</section>
+
+<section id="contact" class="py-24 bg-[#0d1117] text-white">
+<div class="max-w-5xl mx-auto px-6 text-center">
+<div class="text-green-400 uppercase font-semibold mb-3">Contact Goat Village</div>
+<h2 class="text-5xl font-extrabold mb-8">Start Your Goat Farming Journey Today</h2>
+<p class="text-gray-400 text-lg max-w-3xl mx-auto mb-12">Whether you are looking to purchase premium goats, invest in livestock, or attend workshops, Goat Village Zambia is ready to support your agricultural goals.</p>
+<button class="bg-green-600 hover:bg-green-700 px-10 py-5 rounded-2xl font-bold text-lg shadow-2xl">Schedule Investor Meeting</button>
+</div>
+</section>
+
+<footer class="bg-black text-white overflow-hidden">
+<div class="border-b border-gray-800 py-4 overflow-hidden whitespace-nowrap bg-green-950">
+<div class="ticker text-sm font-semibold">
+🍅 Tomatoes: ZMW 210/crate &nbsp;&nbsp;&nbsp; 🥬 Cabbages: ZMW 85/bag &nbsp;&nbsp;&nbsp; 🌽 Maize: ZMW 340/50kg &nbsp;&nbsp;&nbsp; 🧅 Onions: ZMW 170/bag &nbsp;&nbsp;&nbsp; 🥔 Potatoes: ZMW 260/bag &nbsp;&nbsp;&nbsp; 🐐 Goat Meat: ZMW 95/kg &nbsp;&nbsp;&nbsp; 🌾 Soybeans: ZMW 620/50kg
+</div>
+</div>
+
+<div class="max-w-7xl mx-auto px-6 py-16 grid lg:grid-cols-4 gap-12">
+<div>
+<img src="GV.jpg" class="w-32 rounded-2xl shadow-2xl mb-6">
+<p class="text-gray-400 leading-relaxed">Goat Village Zambia is a premium livestock enterprise specializing in elite Boer and Red Kalahari goat genetics for commercial agriculture and investment farming.</p>
+</div>
+
+<div>
+<h3 class="font-bold text-xl mb-6">Quick Links</h3>
+<ul class="space-y-4 text-gray-400">
+<li>Premium Goat Sales</li>
+<li>Breeding Services</li>
+<li>Mini Workshops</li>
+<li>Farm Day Events</li>
+</ul>
+</div>
+
+<div>
+<h3 class="font-bold text-xl mb-6">Farm Location</h3>
+<ul class="space-y-4 text-gray-400">
+<li>Kamaila, Chisamba</li>
+<li>Lusaka, Zambia</li>
+<li>info@goatvillage.co.zm</li>
+<li>+260 97 621 9920</li>
+</ul>
+</div>
+
+<div>
+<h3 class="font-bold text-xl mb-6">Follow Us</h3>
+<div class="flex gap-4 flex-wrap">
+<a href="#" class="w-14 h-14 bg-white/10 rounded-full flex items-center justify-center text-2xl hover:bg-green-600 transition">𝕏</a>
+<a href="#" class="w-14 h-14 bg-white/10 rounded-full flex items-center justify-center text-2xl hover:bg-green-600 transition">f</a>
+<a href="#" class="w-14 h-14 bg-white/10 rounded-full flex items-center justify-center text-2xl hover:bg-green-600 transition">📸</a>
+<a href="#" class="w-14 h-14 bg-white/10 rounded-full flex items-center justify-center text-2xl hover:bg-green-600 transition">▶</a>
+<a href="#" class="w-14 h-14 bg-white/10 rounded-full flex items-center justify-center text-2xl hover:bg-green-600 transition">♪</a>
+</div>
+</div>
+</div>
+
+<div class="border-t border-gray-800 py-6 text-center text-gray-500 text-sm">© 2026 Goat Village Zambia — Premium Boer & Red Kalahari Goat Breeding Farm.</div>
+</footer>
+
+</body>
+</html>
